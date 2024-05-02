@@ -1,13 +1,13 @@
 {
   "name": "tailwind-css",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "tailwind complete guide",
+  "main": "tailwind.config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npx tailwindcss -i ./src/tailwind.css -o ./assets/css/tailwind.css --watch"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["css", "tailwind", "tailwindcss"],
+  "author": "Istiak Hossain Tushar",
   "license": "ISC",
   "devDependencies": {
     "tailwindcss": "^3.4.3"
